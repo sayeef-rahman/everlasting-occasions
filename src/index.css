@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: "futura-pt", sans-serif;
+    outline: none !important;
+    overflow-x: hidden;
+}
