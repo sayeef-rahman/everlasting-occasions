@@ -1,7 +1,8 @@
 import "./App.css";
 import { HeroSection } from "./modules/HeroSection";
-// import { Header } from "./modules/NavBar";
 import { Overview } from "./modules/Overview";
+import { Experience } from "./modules/Overview/Experience";
+// import { Header } from "./modules/NavBar";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* <Header /> */}
       <HeroSection />
       <Overview />
+      <Experience />
     </div>
   );
 }
